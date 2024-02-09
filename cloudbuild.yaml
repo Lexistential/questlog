@@ -7,3 +7,4 @@ steps:
   args: ['cp', '-r', 'build', 'gs://questlog-292024']
 images:
 - 'gcr.io/$eighth-codex-413820/questlog'
+logsBucket: 'gs://questlog-292024'
