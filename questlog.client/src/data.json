@@ -1,0 +1,80 @@
+[
+    {
+      "CampaignID": 1,
+      "Name": "The Adventure Begins",
+      "Description": "Embark on an epic quest to save the kingdom!",
+      "CreationDate": "2024-02-09T00:00:00.000Z",
+      "ModifiedDate": "2024-02-09T00:00:00.000Z",
+      "Quests": [
+        {
+          "QuestID": 1,
+          "Name": "Rescue the Princess",
+          "Description": "The princess has been kidnapped by an evil sorcerer.",
+          "CreationDate": "2024-02-09T00:00:00.000Z",
+          "ModifiedDate": "2024-02-09T00:00:00.000Z",
+          "NPC": {
+            "NPCID": 1,
+            "Name": "Merlin the Wizard",
+            "Pronouns": "He/him",
+            "Description": "A wise and powerful wizard.",
+            "Location": "Tower of Wisdom",
+            "CreationDate": "2024-02-09T00:00:00.000Z",
+            "ModifiedDate": "2024-02-09T00:00:00.000Z"
+          },
+          "QuestSteps": [
+            {
+              "StepID": 1,
+              "Name": "Visit Merlin's Tower",
+              "Description": "Seek guidance from Merlin the Wizard.",
+              "CompletionStatus": true,
+              "CreationDate": "2024-02-09T00:00:00.000Z",
+              "ModifiedDate": "2024-02-09T00:00:00.000Z"
+            },
+            {
+              "StepID": 2,
+              "Name": "Rescue the Princess from the Sorcerer's Castle",
+              "Description": "Defeat the sorcerer and rescue the princess.",
+              "CompletionStatus": false,
+              "CreationDate": "2024-02-09T00:00:00.000Z",
+              "ModifiedDate": "2024-02-09T00:00:00.000Z"
+            }
+          ]
+        },
+        {
+          "QuestID": 2,
+          "Name": "Retrieve the Sacred Artifact",
+          "Description": "Recover the artifact stolen from the temple.",
+          "CreationDate": "2024-02-09T00:00:00.000Z",
+          "ModifiedDate": "2024-02-09T00:00:00.000Z",
+          "NPC": {
+            "NPCID": 2,
+            "Name": "Aria the Rogue",
+            "Pronouns": "She/her",
+            "Description": "A skilled rogue with a mysterious past.",
+            "Location": "Thieves' Guild",
+            "CreationDate": "2024-02-09T00:00:00.000Z",
+            "ModifiedDate": "2024-02-09T00:00:00.000Z"
+          },
+          "QuestSteps": [
+            {
+              "StepID": 1,
+              "Name": "Meet Aria at the Thieves' Guild",
+              "Description": "Formulate a plan with Aria the Rogue.",
+              "CompletionStatus": false,
+              "CreationDate": "2024-02-09T00:00:00.000Z",
+              "ModifiedDate": "2024-02-09T00:00:00.000Z"
+            },
+            {
+              "StepID": 2,
+              "Name": "Infiltrate the Sorcerer's Hideout",
+              "Description": "Sneak into the hideout to retrieve the artifact.",
+              "CompletionStatus": false,
+              "CreationDate": "2024-02-09T00:00:00.000Z",
+              "ModifiedDate": "2024-02-09T00:00:00.000Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+  
